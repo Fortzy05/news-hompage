@@ -1,14 +1,19 @@
 
 import './App.css'
+import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import News from './components/News';
 
 function App() {
   
 
   return (
-    <section className="">
+    <div className="px-24 h-[
+    100vh] text-[15px]">
       <Navbar />
-    </section>
+      <News />
+      <Footer />
+    </div>
   )
 }
 
