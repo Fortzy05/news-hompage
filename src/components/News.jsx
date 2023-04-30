@@ -6,20 +6,21 @@ import NewsItems from "./NewsItems";
 function News() {
   return (
     <div className="cursor-pointer flex-col p-5 w-[400px]  bg-black text-white mt-8">
-      <h2 className="mb-4 text-orange-300 hover:text-orange-400 text-[25px] font-bold">
+      <h2 className=" text-orange-300 hover:text-orange-400 text-[25px] font-bold">
         NEW
       </h2>
       <NewsItems
         title="Hydrogen VS Electric Cars"
         content="Will hydrogen-fueled cars ever catch up to EVs?"
       />
-
+      <hr className="border-b-[1px] border-gray-600" />
       <NewsItems
         title="The Downside of AI Artistry"
         content="What are the possible advers effects of on-demand AI image
             generation?"
       />
 
+      <hr className="border-b-[1px] border-gray-600" />
       <NewsItems
         title="Is VC Funding Drying Up?"
         content=" private funding by VC firms is down 50% YOY. We take a look at what
