@@ -1,19 +1,20 @@
-import ImageLogo from "../assets/logo.svg"
+import ImageLogo from "../assets/logo.svg";
 
 function Navbar() {
   return (
-    <header className="flex justify-between items-center p-5">
+    <header className="flex justify-between items-center p-[1.25rem]">
       <div className="">
         <img className="w-12" src={ImageLogo} alt="logo" />
-        </div>
-        <nav className="flex space-x-5 gap-2 cursor-pointer">
-          <p className=" hover:text-red-500 ">Home</p>
-          <p className=" hover:text-red-500">New</p>
-          <p className=" hover:text-red-500">Popular</p>
-          <p className=" hover:text-red-500">Trending</p>
-          <p className=" hover:text-red-500">Categories</p>
-        </nav>
-      
+      </div>
+      <nav className="hidden space-x-5 gap-2 cursor-pointer">
+        <ul className="flex space-x-5">
+          <li className=" hover:text-red-500 ">Home</li>
+          <li className=" hover:text-red-500">New</li>
+          <li className=" hover:text-red-500">Popular</li>
+          <li className=" hover:text-red-500">Trending</li>
+          <li className=" hover:text-red-500">Categories</li>
+        </ul>
+      </nav>
     </header>
   );
 }

@@ -3,18 +3,18 @@ import './App.css'
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
 import News from './components/News';
+import NewsBody from './components/NewsBody';
 
 function App() {
   
 
   return (
-    <div className="px-24 h-[
-    100vh] text-[15px]">
+    <div className="text-[15px]">
       <Navbar />
-      <News />
+      <NewsBody />
       <Footer />
     </div>
-  )
+  );
 }
 
 export default App
